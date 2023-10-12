@@ -59,7 +59,7 @@ def FMES(climate, metadata, reno_dict, heating_set_point = 18):
     parameters = Parameters(co2_energies=co2_energies)
 
     buildings = run_models_quick(buildings, boundaries, climate, metadata, parameters)
-    print(float(buildings['total_CO2_emission'].iloc[0]), float(buildings['total_final_consumption'].iloc[0]), buildings['diagnosis_class'].iloc[0])
+    #print(float(buildings['total_CO2_emission'].iloc[0]), float(buildings['total_final_consumption'].iloc[0]), buildings['diagnosis_class'].iloc[0])
 
     return float(buildings['total_final_consumption'].iloc[0])
 
