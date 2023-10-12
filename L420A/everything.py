@@ -5,6 +5,7 @@ import bw2calc as bc
 import uuid
 import pandas as pd
 import sys
+from Simulation.sim_BM import *
 
 def setup():
 
@@ -346,6 +347,77 @@ class ProLCA:
            
              # Store all calculated impacts in the results dictionary
             results_dict[result_key] = impacts
+        return results_dict
+    
+    def give_me_operational(self, mfa_start = 2020, mfa_end = 2050, climate = french_climate, metadata = french_metadata, heating_set_point = 18 ):
+        '''
+        give me the operational LCA of the building, considering the energy consumption
+        Returns:
+
+        '''
+        # initialize an empty dictionary to store results
+        results_dict = {}
+        # Localisation of possible renovations
+        reno_dict = {'231 Bearing outer wall':None,
+             '251 Loadbering deck':None,
+             '262 Roof covering':None,
+             '234 Windows':None,
+             '291 Mass inventory heating':None}
+        service_life_outer_wall = 38
+        service_life_floor = 35
+        service_life_roof = 35
+        service_life_windows = 30
+        service_life_heating_system = 26
+        dates_new_energetic_simulations = [mfa_start, 
+                                           mfa_start + service_life_heating_system,
+                                           mfa_start + service_life_windows,
+                                           mfa_start + service_life_roof,
+                                           mfa_start + service_life_outer_wall,
+                                           mfa_end]
+        
+        energy_consumption = 0
+        operational_lca = 0
+        # iterate through all the years where the energy simulation will change
+        for i in range (1, len(dates_new_energetic_simulations)) :
+            year_duration = dates_new_energetic_simulations[i] - dates_new_energetic_simulations[i-1]
+            year = dates_new_energetic_simulations[i]
+            old_year = dates_new_energetic_simulations[i-1]
+            if i==1 :
+                reno_dict['291 Mass inventory heating'] = 1
+            if i==2 :
+                reno_dict['234 Windows'] = 1
+            if i==3 :
+                reno_dict['262 Roof covering'] = 1
+                reno_dict['51 Loadbering deck'] = 1
+            if i==4 :
+                reno_dict['231 Bearing outer wall'] = 1
+            energy_consumption = FMES(climate, metadata, reno_dict) * year_duration
+            dbs = self.database_chooser(old_year)      
+            for db in dbs:
+                
+            # Choose the appropriate activity : energy consumption
+            
+            # Before the renovation of the heating system : gas boiler so energy consumption all in gas
+                if i==1 :
+                    demand = bd.get_activity((str(db), '6a60dc6386928f379bff65ad8c801001'))
+                else : # energy consumption all in electricity thanks to heat pump
+                    demand = bd.get_activity((str(db), '35e0230404c1d9c808244206d6747650'))
+                
+                result_key = (old_year, demand, db)
+                amount = 1
+                fu = {demand: amount}
+                # Initialize the LCA with the first method and calculate impacts
+                lca = bc.LCA(fu, self.methods[0])
+                lca.lci()
+                lca.lcia()
+                impacts = [lca.score]
+                # If there are additional methods, switch methods and calculate additional impacts
+                if len(self.methods) > 1:    
+                    for method in self.methods[1:]:
+                        lca.switch_method(method)
+                        lca.lcia()
+                        impacts.append(lca.score)
+                results_dict[result_key] = impacts
         return results_dict
      
 

@@ -64,6 +64,6 @@ def FMES(climate, metadata, reno_dict, heating_set_point = 18):
     return float(buildings['total_final_consumption'].iloc[0])
 
 
-Energy_consumption_kWh = FMES(french_climate, metadata, reno_dict,16)
+Energy_consumption_kWh = FMES(french_climate, french_metadata, reno_dict,16)
 
 
