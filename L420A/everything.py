@@ -27,12 +27,12 @@ def setup():
         
     # ndb = ps.NewDatabase(
     #     scenarios=[
-    #         {"model":"image", "pathway":"SSP2-RCP19", "year":2020},
-    #         {"model":"image", "pathway":"SSP2-RCP26", "year":2020},
-    #         {"model":"image", "pathway":"SSP2-RCP19", "year":2030},
-    #         {"model":"image", "pathway":"SSP2-RCP26", "year":2030},
-    #         {"model":"image", "pathway":"SSP2-RCP19", "year":2040},
-    #         {"model":"image", "pathway":"SSP2-RCP26", "year":2040},
+    #         {"model":"image", "pathway":"SSP2-RCP19", "year":2050},
+    #         {"model":"image", "pathway":"SSP2-RCP26", "year":2050},
+            # {"model":"image", "pathway":"SSP2-RCP19", "year":2060},
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2060},
+            # {"model":"image", "pathway":"SSP2-RCP19", "year":2070},
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2070},
     #     ],
     #     source_db="ecoinvent-3.9.1-cuttoff", # <-- name of the database in the BW2 project. Must be a string.
     #     source_version="3.9.1", # <-- version of ecoinvent. Can be "3.5", "3.6", "3.7" or "3.8". Must be a string.
@@ -42,7 +42,7 @@ def setup():
     # )
 
     # ndb.update_electricity()
-    # ndb.write_db_to_brightway(["SSP2-RCP19_2020","SSP2-RCP26_2020", "SSP2-RCP19_2030","SSP2-RCP26_2030", "SSP2-RCP19_2040","SSP2-RCP26_2040"])
+    # ndb.write_db_to_brightway(["SSP2-RCP19_2050","SSP2-RCP26_2050"])
     
 
 def constructor_main(file, sheet):
@@ -66,7 +66,7 @@ def renovation_main(file, sheet):
                 unit = building_data_renovation['Unit'][index],
                 service_life = building_data_renovation['Service_life_renovation'][index],
                 production_lci = building_data_renovation['Ecoinvent_key_renovation'][index],
-                eol_lci = building_data_renovation['Ecoinvent_activity_renovation_eol'][index],
+                eol_lci = building_data_renovation['Ecoinvent_key_renovation_eol'][index],
                 major_renovation_possible = True,
                 renovation_product = True
             )
@@ -130,10 +130,11 @@ class Mfa:
         self.max_year = self.get_max_db_year()
         
     
-    def add_points(self, product: Product):
+    def add_renovation_points(self, product: Product):
         '''
         This function adds points to the time line where replacements occur'''
         first_repl = product.service_life + self.start
+    
         
         # here is for replacements
         for i in range(first_repl, self.end-1, product.service_life):
@@ -143,15 +144,20 @@ class Mfa:
                         self.points.append((i, p))
             else:
                 self.points.append((i, product))
-        # here is for eol
+        self.points = list(set(self.points))
+        # sort by year
+        self.points = sorted(self.points, key=lambda x: x[0])
+        return self.points
+    
+    def add_eol_points(self, product: Product):
+        '''This function adds points to the time line where eol occurs'''
         if product.major_renovation_possible:
             for p in Product.renovation_instances:
                 if p.id == product.id:
-                    print('the EOL of the product is ', p)
                     self.points.append((self.end, p))
         else:
-            print('the EOL of the products that are not renovation possible is ', product)
             self.points.append((self.end, product))
+            
         
         # clean duplicates
         self.points = list(set(self.points))
@@ -159,7 +165,7 @@ class Mfa:
         self.points = sorted(self.points, key=lambda x: x[0])
         return self.points
     
-    
+        
     def create_time_line_dict(self):
         '''
         This function creates a dictionary of databases for each year in the time line'''
@@ -188,28 +194,41 @@ class Mfa:
             if len(db_dict[year]) > 0:
                 return year
             
-    def clean_list_for_lca(self):
-        '''this function provides the a list of tuples, the first value of the tuple is the year and the second value is the code of the activity'''
-        # initialize an empty list
+    
+    def match_renovation_product(self, product):
+        '''This function matches the renovation product with the construction product'''
+        for p in Product.real_instances:
+            if p.id == product.id:
+                return p
+
+    
+    def clean_list_renovation(self):
         clean_list = []
         check_if_first_time = []
         
         for point in self.points:
+            if not point[1].renovation_product:
+                clean_list.append((point[0], point[1].production_lci, point[1]))
+                clean_list.append((point[0], point[1].eol_lci, point[1]))
+                
+        # now lets add the production and eol activities of the products that are renovation possible
+        for point in self.points:
             if point[1].renovation_product and point[1] not in check_if_first_time:
-                clean_list.append((point[0], point[1].production_lci))
-                # get the eol activity of the product from the real_instances list that has the same id as the renovation product
-                for p in Product.real_instances:
-                    if p.id == point[1].id:
-                        clean_list.append((point[0], p.eol_lci))
-                check_if_first_time.append(point[0])
+                clean_list.append((point[0], point[1].production_lci, point[1]))
+                clean_list.append((point[0], self.match_renovation_product(point[1]).eol_lci, self.match_renovation_product(point[1])))
+                # add the renovation product to the check list
+                check_if_first_time.append(point[1])
+                
             elif point[1].renovation_product and point[1] in check_if_first_time:
-                 for p1 in Product.real_instances:
-                    if p1.id == point[1].id:
-                        clean_list.append((point[0], p1.production_lci))
-                        clean_list.append((point[0], p1.eol_lci))
-            else:
-                clean_list.append((point[0], point[1].production_lci))
-                clean_list.append((point[0], point[1].eol_lci))
+                clean_list.append((point[0], point[1].production_lci, point[1]))
+                clean_list.append((point[0], point[1].eol_lci, point[1]))
+        return clean_list
+    
+    def clean_list_eol(self):
+        clean_list = []
+        for point in self.points:
+            if point[0] == self.end:
+                clean_list.append((point[0], point[1].eol_lci, point[1]))
         return clean_list
     
 class ProLCA:
@@ -256,7 +275,7 @@ class ProLCA:
         # initialize an empty dictionary to store results
         results_dict = {}
         # iterate through all years in the time line
-        for year, activity in self.activities_and_years:            
+        for year, activity, _ in self.activities_and_years:            
             # Choose the appropriate database(s) based on the year
             dbs = self.database_chooser(year)
             # Iterate through all chosen databases
@@ -287,7 +306,7 @@ class ProLCA:
                 # Store all calculated impacts in the results dictionary
                 results_dict[result_key] = impacts
         return results_dict
-    
+ 
     def production_lca(self, db = 'ecoinvent-3.9.1-cuttoff', mfa_start = 2020):
         results_dict = {}
          
@@ -329,42 +348,7 @@ class ProLCA:
             results_dict[result_key] = impacts
         return results_dict
      
-    def eol_lca(self, max_db_year = 2050, mfa_end=2050):
-         results_dict = {}
-         max_db_year = max_db_year
-         dbs = self.database_chooser(max_db_year)
-         for product in self.products:
-             for db in dbs:
-                 # Construct a unique key for storing results
-                 result_key = f"{mfa_end}_{product}_{db}"
-               
-                #  fetched_db = bd.Database(str(db))
-                 # Ensure this returns the expected activity
-                #  activity = fetched_db.get(product.production_lci[1])
-                 activity = bd.get_activity((str(db), product.eol_lci))
-               
-                 # Define the functional unit for the LCA
-                 amount = product.amount
-                 fu = {activity: amount}
-               
-                 # Initialize the LCA with the first method and calculate impacts
-                 lca = bc.LCA(fu, self.methods[0])
-                 lca.lci()
-                 lca.lcia()
-               
-                 # Initialize a list to store impact scores for all methods
-                 impacts = [lca.score]
-               
-                 # If there are additional methods, switch methods and calculate additional impacts
-                 if len(self.methods) > 1:    
-                     for method in self.methods[1:]:
-                         lca.switch_method(method)
-                         lca.lcia()
-                         impacts.append(lca.score)
-               
-                 # Store all calculated impacts in the results dictionary
-                 results_dict[result_key] = impacts
-         return results_dict
+
 
 def bd_get_activity(db_code) -> str:
         bd.projects.set_current('MCC')
@@ -378,15 +362,19 @@ class GiveMeName:
     -aggregating the results
     - TO BE DONE: aggregating the results based on the time line'''
     
-    def aggregator(lcia_dict, product) -> dict:
-        # find all the keys in the lcia dictionary that contain the product code
-        keys = [key for key in lcia_dict.keys() if product.production_lci in key or product.eol_lci in key]
-        print(keys)
+    # def aggregator_renovation(lcia_dict, product) -> dict:
+    #     # find all the keys in the lcia dictionary that contain the product code
+    #     keys = [key for key in lcia_dict.keys() if product.production_lci in key or product.eol_lci in key]
+    #     print(keys)
 
-        # Create a new dictionary that contains only the relevant keys
-        aggregated_lcia = {key: [x * product.amount for x in lcia_dict[key]] for key in keys}
+    #     # Create a new dictionary that contains only the relevant keys
+    #     aggregated_lcia = {key: [x * product.amount for x in lcia_dict[key]] for key in keys}
         
-        return aggregated_lcia
+    #     return aggregated_lcia
+    
+    def aggregator_renovation_eol(lcia_dict, product, list) -> dict:
+        pass
+        
     
 
     def poop_to_excel(data, output_file='output.xlsx') -> None:
