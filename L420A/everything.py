@@ -349,7 +349,7 @@ class ProLCA:
             results_dict[result_key] = impacts
         return results_dict
     
-    def give_me_operational(self, mfa_start = 2020, mfa_end = 2050, climate = french_climate, metadata = french_metadata, heating_set_point = 18 ):
+    def give_me_operational(self, mfa_start = 2020, mfa_end = 2080, climate = french_climate, metadata = french_metadata, heating_set_point = 18 ):
         '''
         give me the operational LCA of the building, considering the energy consumption
         Returns:
@@ -380,6 +380,7 @@ class ProLCA:
         # iterate through all the years where the energy simulation will change
         for i in range (1, len(dates_new_energetic_simulations)) :
             year_duration = dates_new_energetic_simulations[i] - dates_new_energetic_simulations[i-1]
+            print(year_duration)
             year = dates_new_energetic_simulations[i]
             old_year = dates_new_energetic_simulations[i-1]
             if i==1 :
@@ -400,11 +401,13 @@ class ProLCA:
             # Before the renovation of the heating system : gas boiler so energy consumption all in gas
                 if i==1 :
                     demand = bd.get_activity((str(db), '6a60dc6386928f379bff65ad8c801001'))
+                    amount = energy_consumption * 10.6
                 else : # energy consumption all in electricity thanks to heat pump
                     demand = bd.get_activity((str(db), '35e0230404c1d9c808244206d6747650'))
+                    amount = energy_consumption
+                    print(energy_consumption)
                 
                 result_key = (old_year, demand, db)
-                amount = 1
                 fu = {demand: amount}
                 # Initialize the LCA with the first method and calculate impacts
                 lca = bc.LCA(fu, self.methods[0])
@@ -419,6 +422,7 @@ class ProLCA:
                         impacts.append(lca.score)
                 results_dict[result_key] = impacts
         return results_dict
+                
      
 
 
