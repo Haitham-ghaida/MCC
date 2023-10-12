@@ -135,8 +135,24 @@ class Mfa:
         This function adds points to the time line where replacements occur'''
         first_repl = product.service_life + self.start
         
+        # here is for replacements
         for i in range(first_repl, self.end-1, product.service_life):
-            self.points.append((i, product))
+            if product.major_renovation_possible:
+                for p in Product.renovation_instances:
+                    if p.id == product.id:
+                        self.points.append((i, p))
+            else:
+                self.points.append((i, product))
+        # here is for eol
+        if product.major_renovation_possible:
+            for p in Product.renovation_instances:
+                if p.id == product.id:
+                    print('the EOL of the product is ', p)
+                    self.points.append((self.end, p))
+        else:
+            print('the EOL of the products that are not renovation possible is ', product)
+            self.points.append((self.end, product))
+        
         # clean duplicates
         self.points = list(set(self.points))
         # sort by year
@@ -176,9 +192,24 @@ class Mfa:
         '''this function provides the a list of tuples, the first value of the tuple is the year and the second value is the code of the activity'''
         # initialize an empty list
         clean_list = []
+        check_if_first_time = []
+        
         for point in self.points:
-            clean_list.append((point[0], point[1].production_lci))
-            clean_list.append((point[0], point[1].eol_lci))
+            if point[1].renovation_product and point[1] not in check_if_first_time:
+                clean_list.append((point[0], point[1].production_lci))
+                # get the eol activity of the product from the real_instances list that has the same id as the renovation product
+                for p in Product.real_instances:
+                    if p.id == point[1].id:
+                        clean_list.append((point[0], p.eol_lci))
+                check_if_first_time.append(point[0])
+            elif point[1].renovation_product and point[1] in check_if_first_time:
+                 for p1 in Product.real_instances:
+                    if p1.id == point[1].id:
+                        clean_list.append((point[0], p1.production_lci))
+                        clean_list.append((point[0], p1.eol_lci))
+            else:
+                clean_list.append((point[0], point[1].production_lci))
+                clean_list.append((point[0], point[1].eol_lci))
         return clean_list
     
 class ProLCA:
@@ -262,7 +293,7 @@ class ProLCA:
          
         for p, product in enumerate(self.products):            
             # Construct a unique key for storing results
-            result_key = f"{mfa_start}_{product}_{db}"
+            result_key = (mfa_start, product, db)    
         
             # Ensure this returns the expected activity
             try:
