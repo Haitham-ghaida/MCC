@@ -1,0 +1,12 @@
+matplotlib>=3.3,<3.5
+seaborn>=x.x
+pyomo
+pyam-iamc
+scipy
+geopandas
+pandas==1.4.4
+plotly
+mosek
+environs
+pvlib
+tables
