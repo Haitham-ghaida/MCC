@@ -225,8 +225,9 @@ class ProLCA:
         return results_dict
 
 def bd_get_activity(db_code) -> str:
-        # Your existing bd.get_activity logic
+        bd.projects.set_current('MCC')
         return bd.get_activity(db_code)['name']
+    
 class GiveMeName:
     
     '''
@@ -246,9 +247,6 @@ class GiveMeName:
         return aggregated_lcia
     
 
-    
-    import pandas as pd
-
     def poop_to_excel(data, output_file='output.xlsx') -> None:
         """
         Generate an Excel file containing impacts data for each product.
@@ -261,44 +259,37 @@ class GiveMeName:
         Returns:
             None. Writes an Excel file to the specified output path.
         """
-        # Accumulating unique activity codes to reduce API/database calls
-        # print('data values: ', data.values())
-        # activity_codes = set([key[1] for product_data in data.values() for impacts_data in product_data.values() if isinstance(impacts_data, dict) for key in impacts_data.keys()])
-        # print(activity_codes)
         activity_codes = set()
 
-        for year_data in data.values():
-            for product_data in year_data:
-                activity_codes.add(product_data[1])
-        print(activity_codes)
-                
-        activity_names = {code: bd_get_activity(('SSP2-RCP19_2030', code)) for code in activity_codes}
+        for product_data in data.values():
+            for (year, activity_code, database) in product_data.keys():
+                activity_codes.add(activity_code)
+                    
+        activity_names = {code: bd_get_activity(('ecoinvent-3.9.1-cuttoff', code)) for code in activity_codes}
         dfs = {}
+        print(data)
 
-        # Looping through each product and its associated embodied impacts
-        for year, products_data in data.items():
-            for product_name, impacts_data in products_data.items():
-                for (year, activity_code, database), impacts in impacts_data.items():
-                    for impact_idx, impact in enumerate(impacts):
-                        if impact_idx not in dfs:
-                            dfs[impact_idx] = []
+        for product_name, impacts_data in data.items():
+            for (year, activity_code, database), impacts in impacts_data.items():
+                for impact_idx, impact in enumerate(impacts):
+                    if impact_idx not in dfs:
+                        dfs[impact_idx] = []
 
-                        dfs[impact_idx].append({
-                            'Year': year,
-                            'Database': database,
-                            'Activity': activity_names[activity_code],
-                            'Product': product_name,  # This will now correctly use the product name
-                            'Impact': impact
-                        })
-        # Convert data to multi-indexed DataFrames
+                    dfs[impact_idx].append({
+                        'Year': year,
+                        'Database': database,
+                        'Activity': activity_names[activity_code],
+                        'Product': product_name,
+                        'Impact': impact
+                    })
+
         dfs = {key: pd.DataFrame(value).set_index(['Year', 'Database', 'Activity', 'Product']) for key, value in dfs.items()}
 
         for key, df in dfs.items():
-            # Sort by Year in other words combine all databases for each year
             dfs[key] = df.sort_index(level='Year')
 
-        # Exporting the data to Excel
         with pd.ExcelWriter(output_file, engine='xlsxwriter') as writer:
             for sheet, df in dfs.items():
                 df.to_excel(writer, sheet_name=f'Impact_{sheet}')
+
 
