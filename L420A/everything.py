@@ -44,17 +44,35 @@ def setup():
     # ndb.write_db_to_brightway(["SSP2-RCP19_2020","SSP2-RCP26_2020", "SSP2-RCP19_2030","SSP2-RCP26_2030", "SSP2-RCP19_2040","SSP2-RCP26_2040"])
     
 
-def constructor(file, sheet):
+def constructor_main(file, sheet):
     building_data_construction = pd.read_excel(io = file, sheet_name = sheet, engine = 'openpyxl')
     for index in building_data_construction.index :
         Product(name=building_data_construction['Ecoinvent_activity_construction'][index],
+                id=building_data_construction['ID'][index],
                 amount = building_data_construction['Amount'][index],
                 unit = building_data_construction['Unit'][index],
                 service_life = building_data_construction['Service_life'][index],
                 production_lci = building_data_construction['Ecoinvent_key_construction'][index],
                 eol_lci = building_data_construction['Ecoinvent_key_eol'][index]
             )
-    return Product.instances
+
+def renovation_main(file, sheet):
+    building_data_renovation = pd.read_excel(io = file, sheet_name = sheet, engine = 'openpyxl')
+    for index in building_data_renovation.index :
+        Product(name=building_data_renovation['Ecoinvent_activity_renovation'][index],
+                id=building_data_renovation['ID'][index],
+                amount = building_data_renovation['Amount'][index],
+                unit = building_data_renovation['Unit'][index],
+                service_life = building_data_renovation['Service_life_renovation'][index],
+                production_lci = building_data_renovation['Ecoinvent_key_renovation'][index],
+                eol_lci = building_data_renovation['Ecoinvent_activity_renovation_eol'][index],
+                major_renovation_possible = True,
+                renovation_product = True
+            )
+        # check if there is a match in id between renovation and construction products and if yes then set major renovation possible to true
+        for product in Product.real_instances:
+            if product.id == building_data_renovation['ID'][index]:
+                product.major_renovation_possible = True
 
 class Product:
     '''This class represents a product in the system, it should take care of the following:
@@ -63,10 +81,14 @@ class Product:
     - Keep track of the product's service life
     '''
     # keep track of all instances of the class
-    instances = []
-    def __init__(self, name: str, amount: float | int, unit: str, service_life: int = None, production_lci: str = None, eol_lci: tuple[str,str] = None):
+    real_instances = []
+    all_instances = []
+    renovation_instances = []
+    def __init__(self, name: str, id: int, amount: float, unit: str, service_life: int = None, production_lci: str = None, eol_lci: tuple[str,str] = None,
+                major_renovation_possible : bool = False, renovation_product = False):
         # randomly generated id
         self.random_id = uuid.uuid4().hex
+        self.id = id
         self.name = name
         self.amount = amount
         self.unit = unit
@@ -74,7 +96,14 @@ class Product:
         self.service_life = service_life
         self.eol_lci = eol_lci
         self.embodied_impacts = {}
-        self.instances.append(self) # keep track of all instances of the class
+        self.major_renovation_possible = major_renovation_possible
+        self.renovation_product = renovation_product
+        # only append if not renovation product
+        if not self.renovation_product:
+            self.real_instances.append(self)
+        else:
+            self.renovation_instances.append(self)
+        self.all_instances.append(self)
 
     # better representation of the class for humans
     def __repr__(self):
