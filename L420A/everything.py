@@ -4,6 +4,7 @@ import bw2data as bd
 import bw2calc as bc
 import uuid
 import pandas as pd
+import sys
 
 def setup():
 
@@ -189,12 +190,15 @@ class ProLCA:
     - Create a future lca for the whole system
     '''
     def __init__(self, activities_and_years: list[tuple[str, int]],
-                 methods: list[tuple[str,str,str]] = [('EF v3.0 EN15804', 'climate change', 'global warming potential (GWP100)'),], yearly_databases: dict = None):
+                 methods: list[tuple[str,str,str]] = [('EF v3.0 EN15804', 'climate change', 'global warming potential (GWP100)'),],
+                 yearly_databases: dict = None,
+                 products: list[Product] = None,):
         self.activities_and_years = activities_and_years
         self.methods = methods
         self.yearly_databases = yearly_databases
         self.results = {}
         self.results_aggregated = {}
+        self.products = products
         
     def database_chooser(self, year):
         '''
@@ -252,6 +256,84 @@ class ProLCA:
                 # Store all calculated impacts in the results dictionary
                 results_dict[result_key] = impacts
         return results_dict
+    
+    def production_lca(self, db = 'ecoinvent-3.9.1-cuttoff', mfa_start = 2020):
+        results_dict = {}
+         
+        for p, product in enumerate(self.products):            
+            # Construct a unique key for storing results
+            result_key = f"{mfa_start}_{product}_{db}"
+        
+            # Ensure this returns the expected activity
+            try:
+               activity = bd.get_activity((str(db), product.production_lci))
+            except:
+                print(f'something wrong with {product.production_lci}')
+                sys.exit(1)
+               
+           
+            # Define the functional unit for the LCA
+            amount = product.amount
+            fu = {activity: amount}
+           
+            #  if p==0:
+                # Initialize the LCA with the first method and calculate impacts
+            lca = bc.LCA(fu, self.methods[0])
+            lca.lci()
+            lca.lcia()
+            #  else:
+            #     lca.redo_lcia(fu)
+           
+             # Initialize a list to store impact scores for all methods
+            impacts = [lca.score]
+        
+            # If there are additional methods, switch methods and calculate additional impacts
+            if len(self.methods) > 1:    
+                for method in self.methods[1:]:
+                    lca.switch_method(method)
+                    lca.lcia()
+                    impacts.append(lca.score)
+           
+             # Store all calculated impacts in the results dictionary
+            results_dict[result_key] = impacts
+        return results_dict
+     
+    def eol_lca(self, max_db_year = 2050, mfa_end=2050):
+         results_dict = {}
+         max_db_year = max_db_year
+         dbs = self.database_chooser(max_db_year)
+         for product in self.products:
+             for db in dbs:
+                 # Construct a unique key for storing results
+                 result_key = f"{mfa_end}_{product}_{db}"
+               
+                #  fetched_db = bd.Database(str(db))
+                 # Ensure this returns the expected activity
+                #  activity = fetched_db.get(product.production_lci[1])
+                 activity = bd.get_activity((str(db), product.eol_lci))
+               
+                 # Define the functional unit for the LCA
+                 amount = product.amount
+                 fu = {activity: amount}
+               
+                 # Initialize the LCA with the first method and calculate impacts
+                 lca = bc.LCA(fu, self.methods[0])
+                 lca.lci()
+                 lca.lcia()
+               
+                 # Initialize a list to store impact scores for all methods
+                 impacts = [lca.score]
+               
+                 # If there are additional methods, switch methods and calculate additional impacts
+                 if len(self.methods) > 1:    
+                     for method in self.methods[1:]:
+                         lca.switch_method(method)
+                         lca.lcia()
+                         impacts.append(lca.score)
+               
+                 # Store all calculated impacts in the results dictionary
+                 results_dict[result_key] = impacts
+         return results_dict
 
 def bd_get_activity(db_code) -> str:
         bd.projects.set_current('MCC')
