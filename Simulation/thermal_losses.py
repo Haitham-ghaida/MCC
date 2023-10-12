@@ -1,7 +1,6 @@
 import datetime
-import pandas as pd
 import numpy as np
-from ..utils import heating_season, add_parameter_from_building, CP_AIR, RHO_AIR
+from Simulation.utils import heating_season, CP_AIR, RHO_AIR
 import geopandas as gpd
 
 # Integer variables for boundary types

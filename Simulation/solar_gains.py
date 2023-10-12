@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import pvlib
 #import buildingmodel.cython_utils.shading as shading_utils
-from buildingmodel.utils import heating_season, add_parameter_from_building
+from Simulation.utils import heating_season, add_parameter_from_building
 
 # Integer variables for boundary types
 EXTERIOR_WALL = 0

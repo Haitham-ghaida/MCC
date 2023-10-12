@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 import datetime
 
-from .models.climate import run_models_BM as run_climate_models_BM
-from .models.solar_gains import run_models as run_solar_gain_models
-from .models.thermal_losses import run_models as run_thermal_loss_models
-from .models.thermal_needs import run_models as run_thermal_need_models
-from .models.energy_consumption import run_models as run_energy_consumption_models
-from .models.energy_indicators import run_models as run_energy_indicators
-from .exceptions import ModelListError
+from Simulation.climate import run_models_BM as run_climate_models_BM
+from Simulation.solar_gains import run_models as run_solar_gain_models
+from Simulation.thermal_losses import run_models as run_thermal_loss_models
+from Simulation.thermal_needs import run_models as run_thermal_need_models
+from Simulation.energy_consumption import run_models as run_energy_consumption_models
+from Simulation.energy_indicators import run_models as run_energy_indicators
+from Simulation.buildingmodel.exceptions import ModelListError
 from pvlib.iotools import read_epw
 
 EPW_name_dict = {

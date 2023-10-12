@@ -1,4 +1,4 @@
-from buildingmodel.main import *
+from Simulation.main import *
 
 energy_list     = ['electricity', 'gas', 'oil', 'biomass', 'district_network', 'biogas']
 dhw_efficiencies = {'electricity': 0.7, 'gas': 0.6, 'oil': 0.6, 'biomass': 0.6, 'district_network': 0.6, 'biogas': 0.6}

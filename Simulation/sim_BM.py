@@ -1,5 +1,5 @@
 import pandas as pd
-from buildingmodel.main import *
+from Simulation.main import *
 import os
 
 
@@ -8,8 +8,8 @@ data_path = {'data': path + '/data/'}
 
 french_climate_data = data_path['data'] + 'FRA_AR_Grenoble.074850_TMYx.epw'
 norway_climate_data = data_path['data'] + 'NOR_OS_Alna.014870_TMYx.2007-2021.epw'
-french_climate, metadata = load_climate_data(french_climate_data)
-norway_climate, metadata = load_climate_data(norway_climate_data)
+french_climate, french_metadata = load_climate_data(french_climate_data)
+norway_climate, norway_metadata = load_climate_data(norway_climate_data)
 
 reno_dict = {'231 Bearing outer wall':None,
              '251 Loadbering deck':None,
@@ -27,7 +27,7 @@ co2_energies = {
                 "biogas": 0.024
             }
 
-def FMES(climate, metadata, reno_dict, co2_energies, heating_set_point):
+def FMES(climate, metadata, reno_dict, heating_set_point = 18):
 
     buildings = pd.read_csv(data_path['data'] + 'Building_case_study.csv', sep=';')
     boundaries = pd.read_csv(data_path['data'] + 'Boundaries_case_study.csv', sep=';')
@@ -64,6 +64,6 @@ def FMES(climate, metadata, reno_dict, co2_energies, heating_set_point):
     return float(buildings['total_final_consumption'].iloc[0])
 
 
-Energy_consumption_kWh = FMES(french_climate, metadata, reno_dict, co2_energies, heating_set_point = 18)
+Energy_consumption_kWh = FMES(french_climate, metadata, reno_dict,16)
 
 
