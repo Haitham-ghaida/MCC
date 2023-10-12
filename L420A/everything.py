@@ -224,7 +224,9 @@ class ProLCA:
                 results_dict[result_key] = impacts
         return results_dict
 
-
+def bd_get_activity(db_code) -> str:
+        # Your existing bd.get_activity logic
+        return bd.get_activity(db_code)['name']
 class GiveMeName:
     
     '''
@@ -243,13 +245,11 @@ class GiveMeName:
         
         return aggregated_lcia
     
-    def bd_get_activity(db_code) -> str:
-        # Your existing bd.get_activity logic
-        return bd.get_activity(db_code)['name']
+
     
     import pandas as pd
 
-    def poop_to_excel(data, bd_get_activity, output_file='output.xlsx') -> None:
+    def poop_to_excel(data, output_file='output.xlsx') -> None:
         """
         Generate an Excel file containing impacts data for each product.
         
@@ -262,7 +262,15 @@ class GiveMeName:
             None. Writes an Excel file to the specified output path.
         """
         # Accumulating unique activity codes to reduce API/database calls
-        activity_codes = set([key[1] for product_data in data.values() for impacts_data in product_data.values() for key in impacts_data.keys()])
+        # print('data values: ', data.values())
+        # activity_codes = set([key[1] for product_data in data.values() for impacts_data in product_data.values() if isinstance(impacts_data, dict) for key in impacts_data.keys()])
+        # print(activity_codes)
+        activity_codes = set()
+
+        for year_data in data.values():
+            for product_data in year_data:
+                activity_codes.add(product_data[1])
+        print(activity_codes)
                 
         activity_names = {code: bd_get_activity(('SSP2-RCP19_2030', code)) for code in activity_codes}
         dfs = {}
