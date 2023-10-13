@@ -54,6 +54,23 @@ def setup():
     # # ndb.write_db_to_brightway(["SSP2-Base_2020", "SSP2-Base_2030", "SSP2-Base_2040", "SSP2-Base_2050", "SSP2-Base_2060", "SSP2-Base_2070", "SSP2-Base_2080", "SSP2-RCP26_2020", "SSP2-RCP26_2030", "SSP2-RCP26_2040", "SSP2-RCP26_2050", "SSP2-RCP26_2060", "SSP2-RCP26_2070", "SSP2-RCP26_2080"])
     # ndb.write_db_to_brightway(["SSP2-RCP26_2020", "SSP2-RCP26_2030", "SSP2-RCP26_2040", "SSP2-RCP26_2050", "SSP2-RCP26_2060", "SSP2-RCP26_2070", "SSP2-RCP26_2080"])
 
+def setup_ecoinvent_static() :
+    bd.projects.set_current('MCCFF_static')
+
+    bi.bw2setup()
+
+    ei391cdir = "/home/haithamth/Documents/ecoinvent/ecoin_cuttoff_391/ecoinvent 3.9.1_cutoff_ecoSpold02/datasets"
+    data_base_name = "ecoinvent-3.9.1-cuttoff"
+    date = ["2020", "2030", "2040", "2050", "2060", "2070", "2080"]
+    for decade in date :
+        data_base_name_decade = data_base_name + "_" + date
+        ei391c = bi.SingleOutputEcospold2Importer(ei391cdir, data_base_name_decade)
+        ei391c.apply_strategies()
+        ei391c.statistics()
+        #ei39.drop_unlinked(True)
+        ei391c.write_database()
+        
+
 
 def constructor_main(file, sheet):
     building_data_construction = pd.read_excel(io = file, sheet_name = sheet, engine = 'openpyxl')

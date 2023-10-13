@@ -1,0 +1,66 @@
+# Configuration file for custom scenarios for `premise`
+
+---
+
+production pathways:
+  gas:
+    production volume:
+      variable: Share|gas
+    ecoinvent alias:
+      name: market for heat, district or industrial, natural gas
+      reference product: heat, district or industrial, natural gas
+    efficiency: 
+      - variable : Efficiency|gas
+        includes:
+          technosphere: 
+            - heat and power co-generation, natural gas, 200kW electrical, lean burn
+          biosphere:
+            - Carbon dioxide, fossil
+
+  biogas:
+    production volume:
+      variable: Share|biogas
+    ecoinvent alias:
+      name: heat and power co-generation, biogas, gas engine, renewable energy products
+      reference product: heat, central or small-scale, other than natural gas
+
+  gas residential:
+    production volume:
+      variable: Share|gas residential
+    ecoinvent alias:
+      name: market for natural gas, high pressure
+      reference product: natural gas, high pressure
+
+  heat pump:
+    production volume:
+      variable: Share|heat pump
+    ecoinvent alias:
+      name: market for residential heating
+      reference product: residential heating
+      exists in original database: False
+
+
+markets:
+  - name: market for heat, district or industrial, natural gas (new)
+    reference product: heat, district or industrial, natural gas
+    unit: megajoule
+    includes:
+      - gas
+      - biogas
+
+    replaces:
+      - name: market for heat, district or industrial, natural gas
+        product: heat, district or industrial, natural gas
+        operator: equals
+
+
+  - name: market for residential heating
+    reference product: residential heating
+    unit: megajoule
+    includes:
+      - gas residential
+      - heat pump
+
+
+
+
