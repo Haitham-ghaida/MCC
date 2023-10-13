@@ -9,7 +9,7 @@ from Simulation.sim_BM import *
 
 def setup():
 
-    bd.projects.set_current('MCC')
+    bd.projects.set_current('MCCFF')
 
     bi.bw2setup()
 
@@ -26,25 +26,34 @@ def setup():
         ei391c.write_database()
         
         
-    # ndb = ps.NewDatabase(
-    #     scenarios=[
-    #         {"model":"image", "pathway":"SSP2-RCP19", "year":2050},
-    #         {"model":"image", "pathway":"SSP2-RCP26", "year":2050},
-            # {"model":"image", "pathway":"SSP2-RCP19", "year":2060},
+    ndb = ps.NewDatabase(
+        scenarios=[
+            {"model":"image", "pathway":"SSP2-Base", "year":2020},
+            {"model":"image", "pathway":"SSP2-Base", "year":2030},
+            {"model":"image", "pathway":"SSP2-Base", "year":2040},
+            {"model":"image", "pathway":"SSP2-Base", "year":2050},
+            {"model":"image", "pathway":"SSP2-Base", "year":2060},
+            {"model":"image", "pathway":"SSP2-Base", "year":2070},
+            {"model":"image", "pathway":"SSP2-Base", "year":2080},
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2020},
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2030},
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2040},
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2050},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2060},
-            # {"model":"image", "pathway":"SSP2-RCP19", "year":2070},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2070},
-    #     ],
-    #     source_db="ecoinvent-3.9.1-cuttoff", # <-- name of the database in the BW2 project. Must be a string.
-    #     source_version="3.9.1", # <-- version of ecoinvent. Can be "3.5", "3.6", "3.7" or "3.8". Must be a string.
-    #     key='tUePmX_S5B8ieZkkM7WUU2CnO8SmShwmAeWK9x2rTFo=', # <-- decryption key
-    #     # to be requested from the library maintainers if you want ot use default scenarios included in `premise`
-    #     use_multiprocessing=True # <-- set to True if you want to use multiprocessing
-    # )
+            # {"model":"image", "pathway":"SSP2-RCP26", "year":2080},
+        ],
+        source_db="ecoinvent-3.9.1-cuttoff", # <-- name of the database in the BW2 project. Must be a string.
+        source_version="3.9.1", # <-- version of ecoinvent. Can be "3.5", "3.6", "3.7" or "3.8". Must be a string.
+        key='tUePmX_S5B8ieZkkM7WUU2CnO8SmShwmAeWK9x2rTFo=', # <-- decryption key
+        # to be requested from the library maintainers if you want ot use default scenarios included in `premise`
+        use_multiprocessing=True # <-- set to True if you want to use multiprocessing
+    )
 
-    # ndb.update_electricity()
-    # ndb.write_db_to_brightway(["SSP2-RCP19_2050","SSP2-RCP26_2050"])
-    
+    ndb.update_all()
+    # ndb.write_db_to_brightway(["SSP2-Base_2020", "SSP2-Base_2030", "SSP2-Base_2040", "SSP2-Base_2050", "SSP2-Base_2060", "SSP2-Base_2070", "SSP2-Base_2080", "SSP2-RCP26_2020", "SSP2-RCP26_2030", "SSP2-RCP26_2040", "SSP2-RCP26_2050", "SSP2-RCP26_2060", "SSP2-RCP26_2070", "SSP2-RCP26_2080"])
+    ndb.write_db_to_brightway(["SSP2-Base_2020", "SSP2-Base_2030", "SSP2-Base_2040", "SSP2-Base_2050", "SSP2-Base_2060", "SSP2-Base_2070", "SSP2-Base_2080",])
+
 
 def constructor_main(file, sheet):
     building_data_construction = pd.read_excel(io = file, sheet_name = sheet, engine = 'openpyxl')
@@ -393,7 +402,7 @@ class ProLCA:
             if i==4 :
                 reno_dict['231 Bearing outer wall'] = 1
             energy_consumption = FMES(climate, metadata, reno_dict) * year_duration
-            dbs = self.database_chooser(old_year)      
+            dbs = self.database_chooser(year)      
             for db in dbs:
                 
             # Choose the appropriate activity : energy consumption
@@ -407,7 +416,7 @@ class ProLCA:
                     amount = energy_consumption
                     print(energy_consumption)
                 
-                result_key = (old_year, demand, db)
+                result_key = (year, demand, db)
                 fu = {demand: amount}
                 # Initialize the LCA with the first method and calculate impacts
                 lca = bc.LCA(fu, self.methods[0])
