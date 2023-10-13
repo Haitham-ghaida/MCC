@@ -26,15 +26,15 @@ def setup():
         ei391c.write_database()
         
         
-    ndb = ps.NewDatabase(
-        scenarios=[
-            {"model":"image", "pathway":"SSP2-Base", "year":2020},
-            {"model":"image", "pathway":"SSP2-Base", "year":2030},
-            {"model":"image", "pathway":"SSP2-Base", "year":2040},
-            {"model":"image", "pathway":"SSP2-Base", "year":2050},
-            {"model":"image", "pathway":"SSP2-Base", "year":2060},
-            {"model":"image", "pathway":"SSP2-Base", "year":2070},
-            {"model":"image", "pathway":"SSP2-Base", "year":2080},
+    # ndb = ps.NewDatabase(
+    #     scenarios=[
+            # {"model":"image", "pathway":"SSP2-Base", "year":2020},
+            # {"model":"image", "pathway":"SSP2-Base", "year":2030},
+            # {"model":"image", "pathway":"SSP2-Base", "year":2040},
+            # {"model":"image", "pathway":"SSP2-Base", "year":2050},
+            # {"model":"image", "pathway":"SSP2-Base", "year":2060},
+            # {"model":"image", "pathway":"SSP2-Base", "year":2070},
+            # {"model":"image", "pathway":"SSP2-Base", "year":2080},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2020},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2030},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2040},
@@ -42,17 +42,17 @@ def setup():
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2060},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2070},
             # {"model":"image", "pathway":"SSP2-RCP26", "year":2080},
-        ],
-        source_db="ecoinvent-3.9.1-cuttoff", # <-- name of the database in the BW2 project. Must be a string.
-        source_version="3.9.1", # <-- version of ecoinvent. Can be "3.5", "3.6", "3.7" or "3.8". Must be a string.
-        key='tUePmX_S5B8ieZkkM7WUU2CnO8SmShwmAeWK9x2rTFo=', # <-- decryption key
-        # to be requested from the library maintainers if you want ot use default scenarios included in `premise`
-        use_multiprocessing=True # <-- set to True if you want to use multiprocessing
-    )
+    #     ],
+    #     source_db="ecoinvent-3.9.1-cuttoff", # <-- name of the database in the BW2 project. Must be a string.
+    #     source_version="3.9.1", # <-- version of ecoinvent. Can be "3.5", "3.6", "3.7" or "3.8". Must be a string.
+    #     key='tUePmX_S5B8ieZkkM7WUU2CnO8SmShwmAeWK9x2rTFo=', # <-- decryption key
+    #     # to be requested from the library maintainers if you want ot use default scenarios included in `premise`
+    #     use_multiprocessing=True # <-- set to True if you want to use multiprocessing
+    # )
 
-    ndb.update_all()
-    # ndb.write_db_to_brightway(["SSP2-Base_2020", "SSP2-Base_2030", "SSP2-Base_2040", "SSP2-Base_2050", "SSP2-Base_2060", "SSP2-Base_2070", "SSP2-Base_2080", "SSP2-RCP26_2020", "SSP2-RCP26_2030", "SSP2-RCP26_2040", "SSP2-RCP26_2050", "SSP2-RCP26_2060", "SSP2-RCP26_2070", "SSP2-RCP26_2080"])
-    ndb.write_db_to_brightway(["SSP2-Base_2020", "SSP2-Base_2030", "SSP2-Base_2040", "SSP2-Base_2050", "SSP2-Base_2060", "SSP2-Base_2070", "SSP2-Base_2080",])
+    # ndb.update_all()
+    # # ndb.write_db_to_brightway(["SSP2-Base_2020", "SSP2-Base_2030", "SSP2-Base_2040", "SSP2-Base_2050", "SSP2-Base_2060", "SSP2-Base_2070", "SSP2-Base_2080", "SSP2-RCP26_2020", "SSP2-RCP26_2030", "SSP2-RCP26_2040", "SSP2-RCP26_2050", "SSP2-RCP26_2060", "SSP2-RCP26_2070", "SSP2-RCP26_2080"])
+    # ndb.write_db_to_brightway(["SSP2-RCP26_2020", "SSP2-RCP26_2030", "SSP2-RCP26_2040", "SSP2-RCP26_2050", "SSP2-RCP26_2060", "SSP2-RCP26_2070", "SSP2-RCP26_2080"])
 
 
 def constructor_main(file, sheet):

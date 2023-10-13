@@ -1,0 +1,683 @@
+Year,Production Type,Scenario,Value1,Value2
+2020,concrete_foundation_production,ecoinvent-3.9.1-cuttoff,13872.880638500286,43.99707920471239
+2020,"polystyrene foam slab production, 45% recycled",ecoinvent-3.9.1-cuttoff,3419.038665225468,12.786087097917745
+2020,"polyethylene production, low density, granulate",ecoinvent-3.9.1-cuttoff,319.209695386447,1.1410022020801207
+2020,"fibreboard production, hard",ecoinvent-3.9.1-cuttoff,202.85713958731665,4.3870538907674375
+2020,"steel production, low-alloyed, hot rolled",ecoinvent-3.9.1-cuttoff,1819.3230344217818,7.737518979739819
+2020,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",ecoinvent-3.9.1-cuttoff,0.0,0.0
+2020,glass wool mat production,ecoinvent-3.9.1-cuttoff,2473.579532791892,26.075566322188127
+2020,gypsum plasterboard production,ecoinvent-3.9.1-cuttoff,494.72569017911144,3.0273015047543606
+2020,"polyethylene production, high density, granulate, recycled",ecoinvent-3.9.1-cuttoff,669.8946874936894,2.277551748053254
+2020,"polyethylene production, low density, granulate",ecoinvent-3.9.1-cuttoff,466.69265591365905,1.668174105583645
+2020,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",ecoinvent-3.9.1-cuttoff,0.0,0.0
+2020,"window frame production, aluminium, U=1.6 W/m2K",ecoinvent-3.9.1-cuttoff,29578.91550179578,182.39429941944724
+2020,"door production, outer, wood-glass",ecoinvent-3.9.1-cuttoff,3491.202045610329,38.18139089592717
+2020,fibre cement corrugated slab production,ecoinvent-3.9.1-cuttoff,315.1346363753568,1.0932420431949843
+2020,market for plywood,ecoinvent-3.9.1-cuttoff,-1233.554040875128,6.944803002060514
+2020,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",ecoinvent-3.9.1-cuttoff,493297.1263328028,1132.7385858990183
+2020,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",ecoinvent-3.9.1-cuttoff,26225.923172207582,60.22154507294904
+2020,gypsum plasterboard production,ecoinvent-3.9.1-cuttoff,50.96067692212074,0.3118361081958494
+2020,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",ecoinvent-3.9.1-cuttoff,103119.61630320783,236.78947699146144
+2020,gypsum plasterboard production,ecoinvent-3.9.1-cuttoff,308.15064972162935,1.8856205439400093
+2020,"flat glass production, coated",ecoinvent-3.9.1-cuttoff,69.59349785625527,0.6825228267742771
+2020,"door production, outer, wood-aluminium",ecoinvent-3.9.1-cuttoff,845.2930875167764,11.016785420577687
+2020,ceramic tile production,ecoinvent-3.9.1-cuttoff,1006.0183664311254,9.343638936791754
+2020,glass wool mat production,ecoinvent-3.9.1-cuttoff,748.0583134491606,7.885755720600122
+2020,market for concrete slab,ecoinvent-3.9.1-cuttoff,86589.78120190768,389.16687382111525
+2020,"polyethylene production, low density, granulate",ecoinvent-3.9.1-cuttoff,1414.2201694336422,5.05507304720065
+2020,gypsum plasterboard production,ecoinvent-3.9.1-cuttoff,122.55832227843504,0.7499529560083479
+2020,fibre cement roof slate production,ecoinvent-3.9.1-cuttoff,443.35029322229525,1.707242281206986
+2020,concrete roof tile production,ecoinvent-3.9.1-cuttoff,1509.8048873844864,6.681030769262151
+2020,polystyrene foam slab production,ecoinvent-3.9.1-cuttoff,2850.7024227211123,10.660695311190786
+2020,"polyethylene production, low density, granulate",ecoinvent-3.9.1-cuttoff,321.2300099148698,1.1482237350154518
+2020,gypsum plasterboard production,ecoinvent-3.9.1-cuttoff,135.05281323094175,0.8264086392432002
+2020,"polyethylene production, high density, granulate",ecoinvent-3.9.1-cuttoff,35.99434141733632,0.12237591481639609
+2020,"steel production, converter, low-alloyed",ecoinvent-3.9.1-cuttoff,213.00371057610957,0.865861825467442
+2020,"hot water tank production, 600l",ecoinvent-3.9.1-cuttoff,815.158280906364,3.972919616696176
+2020,gas boiler production,ecoinvent-3.9.1-cuttoff,521.6994460653826,5.384734800898804
+2020,"ventilation duct production, steel, 100x50 mm",ecoinvent-3.9.1-cuttoff,1368.4914649285477,46.16743218228488
+2020,evacuated tube collector production,ecoinvent-3.9.1-cuttoff,811.4285583492666,17.54821556306975
+2046,"polyethylene production, high density, granulate",SSP2-Base_2040,-0.5214675599033853,-0.001259314505857547
+2072,"polyethylene production, high density, granulate",SSP2-Base_2040,-0.5214675599033853,-0.001259314505857547
+2080,"polyethylene production, high density, granulate, recycled",SSP2-Base_2040,663.8369102007758,2.1173389626519517
+2080,"polyethylene production, high density, granulate",SSP2-Base_2040,-0.5214675599033853,-0.001259314505857547
+2046,"polyethylene production, high density, granulate",SSP2-RCP26_2040,-0.49298196744547057,-0.0012108274412622418
+2072,"polyethylene production, high density, granulate",SSP2-RCP26_2040,-0.49298196744547057,-0.0012108274412622418
+2080,"polyethylene production, high density, granulate, recycled",SSP2-RCP26_2040,621.9469967879829,1.99624504611754
+2080,"polyethylene production, high density, granulate",SSP2-RCP26_2040,-0.49298196744547057,-0.0012108274412622418
+2046,"steel production, converter, low-alloyed",SSP2-Base_2040,202.99315731232764,0.825448599815441
+2046,"hot water tank production, 600l",SSP2-Base_2040,718.5232746833603,3.6742803208210018
+2046,evacuated tube collector production,SSP2-Base_2040,770.5293060574384,16.86989152081382
+2046,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2040,1198.338135774794,45.423727724725985
+2072,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2040,1198.338135774794,45.423727724725985
+2072,"steel production, converter, low-alloyed",SSP2-Base_2040,202.99315731232764,0.825448599815441
+2072,"hot water tank production, 600l",SSP2-Base_2040,718.5232746833603,3.6742803208210018
+2072,evacuated tube collector production,SSP2-Base_2040,770.5293060574384,16.86989152081382
+2080,"hot water tank production, 600l",SSP2-Base_2040,718.5232746833603,3.6742803208210018
+2080,evacuated tube collector production,SSP2-Base_2040,770.5293060574384,16.86989152081382
+2080,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2040,1198.338135774794,45.423727724725985
+2080,"steel production, converter, low-alloyed",SSP2-Base_2040,202.99315731232764,0.825448599815441
+2080,"steel production, low-alloyed, hot rolled",SSP2-Base_2040,-23.176335995706015,-0.055969533593668755
+2046,gas boiler production,SSP2-Base_2040,-0.02897041999463252,-6.996191699208595e-05
+2046,"steel production, converter, low-alloyed",SSP2-RCP26_2040,173.6431950245684,0.7331067118976926
+2046,"hot water tank production, 600l",SSP2-RCP26_2040,553.1608902457601,2.9357447168938258
+2046,evacuated tube collector production,SSP2-RCP26_2040,583.9015133917651,16.133978102317283
+2046,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2040,909.9215770100029,44.89028623222379
+2072,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2040,909.9215770100029,44.89028623222379
+2072,"steel production, converter, low-alloyed",SSP2-RCP26_2040,173.6431950245684,0.7331067118976926
+2072,"hot water tank production, 600l",SSP2-RCP26_2040,553.1608902457601,2.9357447168938258
+2072,evacuated tube collector production,SSP2-RCP26_2040,583.9015133917651,16.133978102317283
+2080,"hot water tank production, 600l",SSP2-RCP26_2040,553.1608902457601,2.9357447168938258
+2080,evacuated tube collector production,SSP2-RCP26_2040,583.9015133917651,16.133978102317283
+2080,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2040,909.9215770100029,44.89028623222379
+2080,"steel production, converter, low-alloyed",SSP2-RCP26_2040,173.6431950245684,0.7331067118976926
+2080,"steel production, low-alloyed, hot rolled",SSP2-RCP26_2040,-21.910309664243137,-0.05381455294498853
+2046,gas boiler production,SSP2-RCP26_2040,-0.02738788708030392,-6.726819118123566e-05
+2080,"fibreboard production, hard",SSP2-Base_2040,192.6323265143596,4.217472880203455
+2080,"fibreboard production, hard",SSP2-RCP26_2040,145.97537834794127,4.033494525579321
+2055,gypsum plasterboard production,SSP2-Base_2050,-10.678808288849005,-9.321113117671832
+2055,gypsum plasterboard production,SSP2-Base_2050,-9.690852012645719,-8.45876481468556
+2060,gypsum plasterboard production,SSP2-Base_2050,-24.365887935575433,-21.26802837140298
+2060,gypsum plasterboard production,SSP2-Base_2050,-4.029529531031382,-3.5172183593709714
+2080,gypsum plasterboard production,SSP2-Base_2050,-9.690852012645719,-8.45876481468556
+2080,gypsum plasterboard production,SSP2-Base_2050,-24.365887935575433,-21.26802837140298
+2080,gypsum plasterboard production,SSP2-Base_2050,-10.678808288849005,-9.321113117671832
+2080,gypsum plasterboard production,SSP2-Base_2050,-4.029529531031382,-3.5172183593709714
+2080,gypsum plasterboard production,SSP2-Base_2050,-39.118628284723385,-34.14511707554629
+2055,gypsum plasterboard production,SSP2-RCP26_2050,-8.939514677199886,-9.319074066398473
+2055,gypsum plasterboard production,SSP2-RCP26_2050,-8.112470180036905,-8.456914407448927
+2060,gypsum plasterboard production,SSP2-RCP26_2050,-20.39733338508706,-21.263375858362423
+2060,gypsum plasterboard production,SSP2-RCP26_2050,-3.3732264322490217,-3.5164489460526465
+2080,gypsum plasterboard production,SSP2-RCP26_2050,-8.112470180036905,-8.456914407448927
+2080,gypsum plasterboard production,SSP2-RCP26_2050,-20.39733338508706,-21.263375858362423
+2080,gypsum plasterboard production,SSP2-RCP26_2050,-8.939514677199886,-9.319074066398473
+2080,gypsum plasterboard production,SSP2-RCP26_2050,-3.3732264322490217,-3.5164489460526465
+2080,gypsum plasterboard production,SSP2-RCP26_2050,-32.74724503373431,-34.13764761953038
+2080,market for plywood,SSP2-Base_2050,-0.019981138170403544,-0.01744075219522796
+2080,market for plywood,SSP2-RCP26_2050,-0.01672674263925135,-0.017436936922575107
+2055,"polyethylene production, low density, granulate",SSP2-Base_2050,-76.32029836770809,-0.09052531780455696
+2055,"polyethylene production, low density, granulate",SSP2-Base_2050,-336.0013135685262,-0.39853913498861554
+2058,"polyethylene production, low density, granulate",SSP2-Base_2050,-110.88043347761364,-0.13151791454624312
+2080,"polyethylene production, low density, granulate",SSP2-Base_2050,-75.84029649118162,-0.08995597618314465
+2080,"polyethylene production, low density, granulate",SSP2-Base_2050,-110.88043347761364,-0.13151791454624312
+2080,"polyethylene production, low density, granulate",SSP2-Base_2050,-336.0013135685262,-0.39853913498861554
+2080,"polyethylene production, low density, granulate",SSP2-Base_2050,-76.32029836770809,-0.09052531780455696
+2055,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-76.05877250226061,-0.09013767778972011
+2055,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-334.84994183385174,-0.3968325437283275
+2058,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-110.50048080517107,-0.13095473943034808
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-75.58041544249797,-0.0895707741558225
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-110.50048080517107,-0.13095473943034808
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-334.84994183385174,-0.3968325437283275
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2050,-76.05877250226061,-0.09013767778972011
+2080,"polyethylene production, high density, granulate, recycled",SSP2-Base_2050,-160.8006286363661,-0.19072944317312315
+2080,"polystyrene foam slab production, 45% recycled",SSP2-Base_2050,-363.8414224070612,-0.4315609490305294
+2080,fibre cement corrugated slab production,SSP2-Base_2050,-259.20101332429164,-0.30744447556264626
+2055,glass wool mat production,SSP2-Base_2050,-360.0014073948495,-0.42700621605923095
+2080,"polyethylene production, high density, granulate, recycled",SSP2-RCP26_2050,-160.24961502048617,-0.1899127173556996
+2080,"polystyrene foam slab production, 45% recycled",SSP2-RCP26_2050,-362.59465130008516,-0.42971295449438895
+2080,fibre cement corrugated slab production,SSP2-RCP26_2050,-258.3128122718285,-0.3061279623047098
+2055,glass wool mat production,SSP2-RCP26_2050,-358.76779482198395,-0.42517772542320803
+2055,market for concrete slab,SSP2-Base_2050,-0.5127118798927318,-0.003205093922322773
+2080,market for concrete slab,SSP2-Base_2050,-0.5127118798927318,-0.003205093922322773
+2055,market for concrete slab,SSP2-RCP26_2050,-0.4669750172256135,-0.0032260977623785212
+2080,market for concrete slab,SSP2-RCP26_2050,-0.4669750172256135,-0.0032260977623785212
+2055,concrete roof tile production,SSP2-Base_2050,1599.1684729979775,7.132190651679421
+2055,fibre cement roof slate production,SSP2-Base_2050,549.1327948099564,2.0089046777894675
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-0.8846085251670374,-0.005529915570204784
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-3.478256649976514,-0.021743477548152146
+2080,concrete_foundation_production,SSP2-Base_2050,-0.19256784221323262,-0.0012037911445343748
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-0.8846085251670374,-0.005529915570204784
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-0.011734602884868864,-7.335602287006348e-05
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-16.63906511623713,-0.10401507858242331
+2080,fibre cement roof slate production,SSP2-Base_2050,549.1327948099564,2.0089046777894675
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-3.478256649976514,-0.021743477548152146
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2050,-548.04807893886,-3.4259895973448304
+2080,concrete roof tile production,SSP2-Base_2050,1599.1684729979775,7.132190651679421
+2055,concrete roof tile production,SSP2-RCP26_2050,594.0755224918533,6.6323182553572915
+2055,fibre cement roof slate production,SSP2-RCP26_2050,214.70126892940016,1.672573820512519
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-0.80569633253715,-0.005566154590019279
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-3.1679760558263452,-0.021885968387966963
+2080,concrete_foundation_production,SSP2-RCP26_2050,-0.17538967783121634,-0.0012116799107524962
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-0.80569633253715,-0.005566154590019279
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-0.010687808492839746,-7.383674456148025e-05
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-15.154764350103537,-0.10469671728845788
+2080,fibre cement roof slate production,SSP2-RCP26_2050,214.70126892940016,1.672573820512519
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-3.1679760558263452,-0.021885968387966963
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2050,-499.1590231076417,-3.4484410260016043
+2080,concrete roof tile production,SSP2-RCP26_2050,594.0755224918533,6.6323182553572915
+2060,"flat glass production, coated",SSP2-Base_2060,-1.22427913976493,-0.004964202203868665
+2080,"flat glass production, coated",SSP2-Base_2060,-1.22427913976493,-0.004964202203868665
+2060,"flat glass production, coated",SSP2-RCP26_2060,-1.0237444834429235,-0.004692108553368345
+2080,"flat glass production, coated",SSP2-RCP26_2060,-1.0237444834429235,-0.004692108553368345
+2060,ceramic tile production,SSP2-Base_2060,1224.9357761252807,9.562552264315567
+2080,ceramic tile production,SSP2-Base_2060,1224.9357761252807,9.562552264315567
+2060,ceramic tile production,SSP2-RCP26_2060,945.6671419692475,9.03376633464597
+2080,ceramic tile production,SSP2-RCP26_2060,945.6671419692475,9.03376633464597
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-0.8659348948008395,-0.005231465814724173
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-3.4048324435026207,-0.02056998123068416
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-0.8659348948008395,-0.005231465814724173
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-16.287823021253885,-0.0984013808007642
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-3.4048324435026207,-0.02056998123068416
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-0.7953520286516484,-0.005127077190675019
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-3.1273025344262098,-0.020159528001429665
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-0.7953520286516484,-0.005127077190675019
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-14.960192919876246,-0.09643788049126821
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-3.1273025344262098,-0.020159528001429665
+2055,market for concrete slab,SSP2-Base_2060,-0.5018887961702825,-0.003032114880370745
+2055,concrete roof tile production,SSP2-Base_2060,-41.82406634752354,-0.2526762400308954
+2055,fibre cement roof slate production,SSP2-Base_2060,-4.082264504061101,-0.024662624555128243
+2080,concrete_foundation_production,SSP2-Base_2060,-0.1885028342423596,-0.001138822490280092
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-0.01148689146164379,-6.93969955014431e-05
+2080,fibre cement roof slate production,SSP2-Base_2060,-4.082264504061101,-0.024662624555128243
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2060,-536.4790662537555,-3.2410888073371416
+2080,concrete roof tile production,SSP2-Base_2060,-41.82406634752354,-0.2526762400308954
+2080,market for concrete slab,SSP2-Base_2060,-0.5018887961702825,-0.003032114880370745
+2055,market for concrete slab,SSP2-RCP26_2060,-0.46097954313687384,-0.0029716120860238887
+2055,concrete roof tile production,SSP2-RCP26_2060,-38.41496192807282,-0.2476343405019907
+2055,fibre cement roof slate production,SSP2-RCP26_2060,-3.7495167065006285,-0.024170506756039375
+2080,concrete_foundation_production,SSP2-RCP26_2060,-0.1731378565772296,-0.0011160984360653102
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-0.01055058813517493,-6.801224844772985e-05
+2080,fibre cement roof slate production,SSP2-RCP26_2060,-3.7495167065006285,-0.024170506756039375
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2060,-492.75033981879545,-3.1764161490418727
+2080,concrete roof tile production,SSP2-RCP26_2060,-38.41496192807282,-0.2476343405019907
+2080,market for concrete slab,SSP2-RCP26_2060,-0.46097954313687384,-0.0029716120860238887
+2055,gypsum plasterboard production,SSP2-Base_2060,-10.224562321704472,-9.317683535720802
+2055,gypsum plasterboard production,SSP2-Base_2060,-9.27863088029938,-8.45565252254081
+2060,gypsum plasterboard production,SSP2-Base_2060,-23.329432740271635,-21.26020307786607
+2060,gypsum plasterboard production,SSP2-Base_2060,-3.85812486775335,-3.5159242447678283
+2080,gypsum plasterboard production,SSP2-Base_2060,-9.27863088029938,-8.45565252254081
+2080,gypsum plasterboard production,SSP2-Base_2060,-23.329432740271635,-21.26020307786607
+2080,gypsum plasterboard production,SSP2-Base_2060,-10.224562321704472,-9.317683535720802
+2080,gypsum plasterboard production,SSP2-Base_2060,-3.85812486775335,-3.5159242447678283
+2080,gypsum plasterboard production,SSP2-Base_2060,-37.454633702376874,-34.13255382523919
+2055,gypsum plasterboard production,SSP2-RCP26_2060,-8.769756462083878,-9.315588483961392
+2055,gypsum plasterboard production,SSP2-RCP26_2060,-7.958417246776742,-8.453751295736273
+2060,gypsum plasterboard production,SSP2-RCP26_2060,-20.009995253923194,-21.255422788248705
+2060,gypsum plasterboard production,SSP2-RCP26_2060,-3.3091700579380956,-3.515133700288966
+2080,gypsum plasterboard production,SSP2-RCP26_2060,-7.958417246776742,-8.453751295736273
+2080,gypsum plasterboard production,SSP2-RCP26_2060,-20.009995253923194,-21.255422788248705
+2080,gypsum plasterboard production,SSP2-RCP26_2060,-8.769756462083878,-9.315588483961392
+2080,gypsum plasterboard production,SSP2-RCP26_2060,-3.3091700579380956,-3.515133700288966
+2080,gypsum plasterboard production,SSP2-RCP26_2060,-32.1253864577792,-34.12487922814963
+2080,market for plywood,SSP2-Base_2060,-0.019131197691338926,-0.01743433509802229
+2080,market for plywood,SSP2-RCP26_2060,-0.01640910772531287,-0.017430415042755203
+2060,"door production, outer, wood-aluminium",SSP2-Base_2060,-19.642652736667188,-0.004038299249926263
+2080,"door production, outer, wood-aluminium",SSP2-Base_2060,-19.642652736667188,-0.004038299249926263
+2060,"door production, outer, wood-aluminium",SSP2-RCP26_2060,-19.606128390307518,-0.003993992847627591
+2080,"door production, outer, wood-aluminium",SSP2-RCP26_2060,-19.606128390307518,-0.003993992847627591
+2080,"door production, outer, wood-glass",SSP2-Base_2060,-65.00782691420808,-0.01336484751761311
+2080,"fibreboard production, hard",SSP2-Base_2060,-3.1178813867725697,-0.0006409998809406767
+2080,"door production, outer, wood-glass",SSP2-RCP26_2060,-64.88694872030345,-0.013218214424291316
+2080,"fibreboard production, hard",SSP2-RCP26_2060,-3.1120838714773837,-0.0006339671186710463
+2046,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2070,-5.520467513222068,-0.013324862021818778
+2072,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2070,-5.520467513222068,-0.013324862021818778
+2080,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2070,-5.520467513222068,-0.013324862021818778
+2046,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2070,-4.989846624659901,-0.012915903406814165
+2072,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2070,-4.989846624659901,-0.012915903406814165
+2080,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2070,-4.989846624659901,-0.012915903406814165
+2046,"polyethylene production, high density, granulate",SSP2-Base_2070,36.020067875547916,0.11252566106390857
+2046,"steel production, converter, low-alloyed",SSP2-Base_2070,196.66316944611907,0.7789539815336974
+2046,"hot water tank production, 600l",SSP2-Base_2070,611.1433383849426,3.0758729717350812
+2046,evacuated tube collector production,SSP2-Base_2070,665.3161806473038,16.524720079118772
+2072,"polyethylene production, high density, granulate",SSP2-Base_2070,36.020067875547916,0.11252566106390857
+2072,"steel production, converter, low-alloyed",SSP2-Base_2070,196.66316944611907,0.7789539815336974
+2072,"hot water tank production, 600l",SSP2-Base_2070,611.1433383849426,3.0758729717350812
+2072,evacuated tube collector production,SSP2-Base_2070,665.3161806473038,16.524720079118772
+2080,"hot water tank production, 600l",SSP2-Base_2070,611.1433383849426,3.0758729717350812
+2080,evacuated tube collector production,SSP2-Base_2070,665.3161806473038,16.524720079118772
+2080,"polyethylene production, high density, granulate",SSP2-Base_2070,36.020067875547916,0.11252566106390857
+2080,"steel production, converter, low-alloyed",SSP2-Base_2070,196.66316944611907,0.7789539815336974
+2080,"steel production, low-alloyed, hot rolled",SSP2-Base_2070,-22.532520462130893,-0.05438719192579093
+2046,gas boiler production,SSP2-Base_2070,-0.028165650577663615,-6.798398990723866e-05
+2046,"polyethylene production, high density, granulate",SSP2-RCP26_2070,32.610241848151475,0.10902370815667013
+2046,"steel production, converter, low-alloyed",SSP2-RCP26_2070,144.62276977299433,0.7244739020932205
+2046,"hot water tank production, 600l",SSP2-RCP26_2070,389.149408101291,2.6069653689827246
+2046,evacuated tube collector production,SSP2-RCP26_2070,401.33196741688704,15.981971528953757
+2072,"polyethylene production, high density, granulate",SSP2-RCP26_2070,32.610241848151475,0.10902370815667013
+2072,"steel production, converter, low-alloyed",SSP2-RCP26_2070,144.62276977299433,0.7244739020932205
+2072,"hot water tank production, 600l",SSP2-RCP26_2070,389.149408101291,2.6069653689827246
+2072,evacuated tube collector production,SSP2-RCP26_2070,401.33196741688704,15.981971528953757
+2080,"hot water tank production, 600l",SSP2-RCP26_2070,389.149408101291,2.6069653689827246
+2080,evacuated tube collector production,SSP2-RCP26_2070,401.33196741688704,15.981971528953757
+2080,"polyethylene production, high density, granulate",SSP2-RCP26_2070,32.610241848151475,0.10902370815667013
+2080,"steel production, converter, low-alloyed",SSP2-RCP26_2070,144.62276977299433,0.7244739020932205
+2080,"steel production, low-alloyed, hot rolled",SSP2-RCP26_2070,-20.366720916979187,-0.052717973089037404
+2046,gas boiler production,SSP2-RCP26_2070,-0.025458401146223983,-6.589746636129676e-05
+2080,"polyethylene production, high density, granulate, recycled",SSP2-Base_2070,670.3734854615861,2.0942275809116317
+2080,"polyethylene production, high density, granulate, recycled",SSP2-RCP26_2070,606.9128343961523,2.0290523462491388
+2080,"fibreboard production, hard",SSP2-Base_2070,166.32904516182595,4.131180019779693
+2080,"fibreboard production, hard",SSP2-RCP26_2070,100.33299185422176,3.9954928822384392
+2046,"hot water tank production, 600l",SSP2-Base_2080,-0.027991237669099615,-6.656995514482263e-05
+2072,"hot water tank production, 600l",SSP2-Base_2080,-0.027991237669099615,-6.656995514482263e-05
+2080,"hot water tank production, 600l",SSP2-Base_2080,-0.027991237669099615,-6.656995514482263e-05
+2046,"hot water tank production, 600l",SSP2-RCP26_2080,-0.024696460253954625,-6.49893645740279e-05
+2072,"hot water tank production, 600l",SSP2-RCP26_2080,-0.024696460253954625,-6.49893645740279e-05
+2080,"hot water tank production, 600l",SSP2-RCP26_2080,-0.024696460253954625,-6.49893645740279e-05
+2046,"polyethylene production, high density, granulate",SSP2-Base_2080,35.92568078569987,0.11248779899435057
+2046,"steel production, converter, low-alloyed",SSP2-Base_2080,195.47403860043013,0.767088448530984
+2046,evacuated tube collector production,SSP2-Base_2080,642.2672491006375,16.368759597808257
+2046,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2080,1124.0765313366257,44.48288801043136
+2072,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2080,1124.0765313366257,44.48288801043136
+2072,"polyethylene production, high density, granulate",SSP2-Base_2080,35.92568078569987,0.11248779899435057
+2072,"steel production, converter, low-alloyed",SSP2-Base_2080,195.47403860043013,0.767088448530984
+2072,evacuated tube collector production,SSP2-Base_2080,642.2672491006375,16.368759597808257
+2080,evacuated tube collector production,SSP2-Base_2080,642.2672491006375,16.368759597808257
+2080,"ventilation duct production, steel, 100x50 mm",SSP2-Base_2080,1124.0765313366257,44.48288801043136
+2080,"polyethylene production, high density, granulate",SSP2-Base_2080,35.92568078569987,0.11248779899435057
+2080,"steel production, converter, low-alloyed",SSP2-Base_2080,195.47403860043013,0.767088448530984
+2080,"steel production, low-alloyed, hot rolled",SSP2-Base_2080,1104.739231924322,4.088025115840026
+2046,gas boiler production,SSP2-Base_2080,-0.027991237669099615,-6.656995514482263e-05
+2046,"polyethylene production, high density, granulate",SSP2-RCP26_2080,32.08895013878962,0.10846009379375818
+2046,"steel production, converter, low-alloyed",SSP2-RCP26_2080,134.4335011781856,0.7290180710785155
+2046,evacuated tube collector production,SSP2-RCP26_2080,372.5711172890101,15.930290284015456
+2046,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2080,675.1699926996396,44.160773265618445
+2072,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2080,675.1699926996396,44.160773265618445
+2072,"polyethylene production, high density, granulate",SSP2-RCP26_2080,32.08895013878962,0.10846009379375818
+2072,"steel production, converter, low-alloyed",SSP2-RCP26_2080,134.4335011781856,0.7290180710785155
+2072,evacuated tube collector production,SSP2-RCP26_2080,372.5711172890101,15.930290284015456
+2080,evacuated tube collector production,SSP2-RCP26_2080,372.5711172890101,15.930290284015456
+2080,"ventilation duct production, steel, 100x50 mm",SSP2-RCP26_2080,675.1699926996396,44.160773265618445
+2080,"polyethylene production, high density, granulate",SSP2-RCP26_2080,32.08895013878962,0.10846009379375818
+2080,"steel production, converter, low-alloyed",SSP2-RCP26_2080,134.4335011781856,0.7290180710785155
+2080,"steel production, low-alloyed, hot rolled",SSP2-RCP26_2080,692.6313477294469,3.7998399597021186
+2046,gas boiler production,SSP2-RCP26_2080,-0.024696460253954625,-6.49893645740279e-05
+2055,"polyethylene production, low density, granulate",SSP2-Base_2080,-76.22103901335392,-0.09016959191198196
+2055,"polyethylene production, low density, granulate",SSP2-Base_2080,-335.5643227003003,-0.3969730461533797
+2058,"polyethylene production, low density, granulate",SSP2-Base_2080,-110.73622649109909,-0.1310011052306153
+2080,"polyethylene production, low density, granulate",SSP2-Base_2080,-75.74166140949634,-0.08960248756033427
+2080,"polyethylene production, low density, granulate",SSP2-Base_2080,-110.73622649109909,-0.1310011052306153
+2080,"polyethylene production, low density, granulate",SSP2-Base_2080,-335.5643227003003,-0.3969730461533797
+2080,"polyethylene production, low density, granulate",SSP2-Base_2080,-76.22103901335392,-0.09016959191198196
+2055,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-75.91725831255958,-0.08993401466329672
+2055,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-334.2269233886271,-0.3959359136119981
+2058,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-110.29488471824693,-0.13065885149195938
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-75.43979127914726,-0.08936839192956529
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-110.29488471824693,-0.13065885149195938
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-334.2269233886271,-0.3959359136119981
+2080,"polyethylene production, low density, granulate",SSP2-RCP26_2080,-75.91725831255958,-0.08993401466329672
+2080,"polyethylene production, high density, granulate, recycled",SSP2-Base_2080,668.6168368449698,2.093522925728191
+2080,"polystyrene foam slab production, 45% recycled",SSP2-Base_2080,3410.071348464296,12.156974448022098
+2080,fibre cement corrugated slab production,SSP2-Base_2080,362.586809317554,1.2228459646841678
+2055,glass wool mat production,SSP2-Base_2080,-359.5332028931789,-0.42532826373576393
+2080,"polyethylene production, high density, granulate, recycled",SSP2-RCP26_2080,597.2110164719179,2.0185628567171663
+2080,"polystyrene foam slab production, 45% recycled",SSP2-RCP26_2080,3183.383012516723,11.925992752444506
+2080,fibre cement corrugated slab production,SSP2-RCP26_2080,64.82957270181821,1.136932792618198
+2055,glass wool mat production,SSP2-RCP26_2080,-358.1002750592433,-0.42421705029856943
+2080,concrete_foundation_production,SSP2-Base_2080,-0.18101125966610818,-0.001111724823922207
+2080,concrete_foundation_production,SSP2-RCP26_2080,-0.14843956939336633,-0.0010974202472643227
+2055,market for concrete slab,SSP2-Base_2080,61386.45484672392,220.91004724607572
+2055,concrete roof tile production,SSP2-Base_2080,1529.577840465045,6.865991364068664
+2055,fibre cement roof slate production,SSP2-Base_2080,499.0137582851772,1.8212850253245578
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,26184.3789944398,58.81118463461616
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,102956.2657060286,231.24397767896693
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,26184.3789944398,58.81118463461616
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,0.0,0.0
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,492515.7001335105,1106.2103776511135
+2080,fibre cement roof slate production,SSP2-Base_2080,499.0137582851772,1.8212850253245578
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,102956.2657060286,231.24397767896693
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-Base_2080,0.0,0.0
+2080,concrete roof tile production,SSP2-Base_2080,1529.577840465045,6.865991364068664
+2080,market for concrete slab,SSP2-Base_2080,61386.45484672392,220.91004724607572
+2055,market for concrete slab,SSP2-RCP26_2080,17539.015400681415,184.4900148509394
+2055,concrete roof tile production,SSP2-RCP26_2080,335.0753610397697,6.691438167930096
+2055,fibre cement roof slate production,SSP2-RCP26_2080,117.77024979905588,1.7017355690924578
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,25431.350448270266,58.06007044665072
+2060,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,99995.37795306268,228.29061713036813
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,25431.350448270266,58.06007044665072
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,0.0,0.0
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,478351.5917650836,1092.0822774489063
+2080,fibre cement roof slate production,SSP2-RCP26_2080,117.77024979905588,1.7017355690924578
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,99995.37795306268,228.29061713036813
+2080,"concrete production, 25MPa, for building construction, for interior use, with cement ZN/D, with 50% RC-C aggregates",SSP2-RCP26_2080,0.0,0.0
+2080,concrete roof tile production,SSP2-RCP26_2080,335.0753610397697,6.691438167930096
+2080,market for concrete slab,SSP2-RCP26_2080,17539.015400681415,184.4900148509394
+2060,"flat glass production, coated",SSP2-Base_2080,-1.1859892416898485,-0.004767393832209267
+2080,"flat glass production, coated",SSP2-Base_2080,-1.1859892416898485,-0.004767393832209267
+2060,"flat glass production, coated",SSP2-RCP26_2080,-0.902964899484819,-0.004624137362529605
+2080,"flat glass production, coated",SSP2-RCP26_2080,-0.902964899484819,-0.004624137362529605
+2060,ceramic tile production,SSP2-Base_2080,1191.5501330993325,9.411821546004058
+2080,ceramic tile production,SSP2-Base_2080,1191.5501330993325,9.411821546004058
+2060,ceramic tile production,SSP2-RCP26_2080,792.1294899037803,9.035895749358353
+2080,ceramic tile production,SSP2-RCP26_2080,792.1294899037803,9.035895749358353
+2080,market for plywood,SSP2-Base_2080,-0.01833674885850172,-0.017431476650473014
+2080,market for plywood,SSP2-RCP26_2080,-0.013769361308295851,-0.017428921178742358
+2055,gypsum plasterboard production,SSP2-Base_2080,149.72910876889551,0.7698568528610659
+2055,gypsum plasterboard production,SSP2-Base_2080,135.87683155430955,0.698633089966435
+2060,gypsum plasterboard production,SSP2-Base_2080,341.63762343838425,1.7565860624012886
+2060,gypsum plasterboard production,SSP2-Base_2080,56.49861380780569,0.2904969205702359
+2080,gypsum plasterboard production,SSP2-Base_2080,135.87683155430955,0.698633089966435
+2080,gypsum plasterboard production,SSP2-Base_2080,341.63762343838425,1.7565860624012886
+2080,gypsum plasterboard production,SSP2-Base_2080,149.72910876889551,0.7698568528610659
+2080,gypsum plasterboard production,SSP2-Base_2080,56.49861380780569,0.2904969205702359
+2080,gypsum plasterboard production,SSP2-Base_2080,548.4879202719208,2.8201409038278547
+2055,gypsum plasterboard production,SSP2-RCP26_2080,93.82571014922353,0.7129056675179484
+2055,gypsum plasterboard production,SSP2-RCP26_2080,85.14536898157186,0.6469507772798014
+2060,gypsum plasterboard production,SSP2-RCP26_2080,214.08257149433018,1.6266402704801421
+2060,gypsum plasterboard production,SSP2-RCP26_2080,35.404088133230914,0.2690070242297456
+2080,gypsum plasterboard production,SSP2-RCP26_2080,85.14536898157186,0.6469507772798014
+2080,gypsum plasterboard production,SSP2-RCP26_2080,214.08257149433018,1.6266402704801421
+2080,gypsum plasterboard production,SSP2-RCP26_2080,93.82571014922353,0.7129056675179484
+2080,gypsum plasterboard production,SSP2-RCP26_2080,35.404088133230914,0.2690070242297456
+2080,gypsum plasterboard production,SSP2-RCP26_2080,343.7024974697128,2.6115172269576403
+2080,"fibreboard production, hard",SSP2-Base_2080,-3.117311159398676,-0.0006368956218241478
+2080,"fibreboard production, hard",SSP2-RCP26_2080,-3.11043658600309,-0.0006334427907828126
+2080,"door production, outer, wood-glass",SSP2-Base_2080,-64.9959376734624,-0.013279273715033482
+2080,"door production, outer, wood-glass",SSP2-RCP26_2080,-64.85260281816443,-0.013207282187821644
+2060,"door production, outer, wood-aluminium",SSP2-Base_2080,525.4729059067491,8.92400478742249
+2080,"door production, outer, wood-aluminium",SSP2-Base_2080,525.4729059067491,8.92400478742249
+2060,"door production, outer, wood-aluminium",SSP2-RCP26_2080,94.2298275711925,8.626274985549987
+2080,"door production, outer, wood-aluminium",SSP2-RCP26_2080,94.2298275711925,8.626274985549987
+2046,heat pump production,SSP2-Base_2040,1609.5529017307815,13.477980046992712
+2072,heat pump production,SSP2-Base_2040,1609.5529017307815,13.477980046992712
+2080,heat pump production,SSP2-Base_2040,1609.5529017307815,13.477980046992712
+2046,heat pump production,SSP2-RCP26_2040,1481.0373665051568,12.992605774366835
+2072,heat pump production,SSP2-RCP26_2040,1481.0373665051568,12.992605774366835
+2080,heat pump production,SSP2-RCP26_2040,1481.0373665051568,12.992605774366835
+2050,"window frame production, wood, U=1.5 W/m2K",SSP2-Base_2050,-189.11665987491196,40.71653965984256
+2080,"window frame production, wood, U=1.5 W/m2K",SSP2-Base_2050,-1.8066711549985348,-0.013706581631231295
+2050,"window frame production, wood, U=1.5 W/m2K",SSP2-RCP26_2050,-2006.5277785471228,35.53570320701068
+2080,"window frame production, wood, U=1.5 W/m2K",SSP2-RCP26_2050,-1.708110857172566,-0.01357238740746553
+2050,"window frame production, aluminium, U=1.6 W/m2K",SSP2-Base_2050,-1.8066711549985348,-0.013706581631231295
+2050,"window frame production, aluminium, U=1.6 W/m2K",SSP2-RCP26_2050,-1.708110857172566,-0.01357238740746553
+2055,wood wool production,SSP2-Base_2050,-3650.007519577352,0.673218642637118
+2055,wood wool production,SSP2-Base_2050,-16033.39532492015,2.9572488767795555
+2058,wood wool production,SSP2-Base_2050,-11796.7228260884,2.1758239362381224
+2080,wood wool production,SSP2-Base_2050,0.0,0.0
+2080,wood wool production,SSP2-Base_2050,0.0,0.0
+2080,wood wool production,SSP2-Base_2050,0.0,0.0
+2055,wood wool production,SSP2-RCP26_2050,-3718.6550675510084,0.4963014689720276
+2055,wood wool production,SSP2-RCP26_2050,-16334.943546079841,2.1801044544939807
+2058,wood wool production,SSP2-RCP26_2050,-12018.589792606213,1.6040325495881345
+2080,wood wool production,SSP2-RCP26_2050,0.0,0.0
+2080,wood wool production,SSP2-RCP26_2050,0.0,0.0
+2080,wood wool production,SSP2-RCP26_2050,0.0,0.0
+2055,polystyrene foam slab production,SSP2-Base_2050,-1988.3976586532287,-0.21806761673137368
+2055,polystyrene foam slab production,SSP2-RCP26_2050,-1985.0112648799613,-0.21399518598486092
+2058,glass wool mat production,SSP2-Base_2050,0.0,0.0
+2058,glass wool mat production,SSP2-RCP26_2050,0.0,0.0
+2046,heat pump production,SSP2-Base_2070,1551.6777168020853,13.346807451197954
+2072,heat pump production,SSP2-Base_2070,-0.06141957614486553,-0.0005681740855973233
+2080,heat pump production,SSP2-Base_2070,-0.06141957614486553,-0.0005681740855973233
+2046,heat pump production,SSP2-RCP26_2070,1375.5583316572431,13.028543413011173
+2072,heat pump production,SSP2-RCP26_2070,-0.05604394472038991,-0.0005645999915466597
+2080,heat pump production,SSP2-RCP26_2070,-0.05604394472038991,-0.0005645999915466597
+2050,"window frame production, wood, U=1.5 W/m2K",SSP2-Base_2080,-1597.0894582608491,35.38274432852271
+2080,"window frame production, wood, U=1.5 W/m2K",SSP2-Base_2080,-1.778363716060471,-0.013498752545221737
+2050,"window frame production, wood, U=1.5 W/m2K",SSP2-RCP26_2080,-3714.218821390916,33.3116266593403
+2080,"window frame production, wood, U=1.5 W/m2K",SSP2-RCP26_2080,-1.6507443598232348,-0.013439677311418546
+2050,"window frame production, aluminium, U=1.6 W/m2K",SSP2-Base_2080,-1.778363716060471,-0.013498752545221737
+2050,"window frame production, aluminium, U=1.6 W/m2K",SSP2-RCP26_2080,-1.6507443598232348,-0.013439677311418546
+2055,wood wool production,SSP2-Base_2080,-3676.2869650126654,0.5587918905959519
+2055,wood wool production,SSP2-Base_2080,-16148.833097397077,2.4546062544336515
+2058,wood wool production,SSP2-Base_2080,-11881.65726311652,1.8059998549234935
+2080,wood wool production,SSP2-Base_2080,0.0,0.0
+2080,wood wool production,SSP2-Base_2080,0.0,0.0
+2080,wood wool production,SSP2-Base_2080,0.0,0.0
+2055,wood wool production,SSP2-RCP26_2080,-3750.2788287771614,0.49520040901021034
+2055,wood wool production,SSP2-RCP26_2080,-16473.85730521054,2.175267826199499
+2058,wood wool production,SSP2-RCP26_2080,-12120.796909688132,1.6004739544031126
+2080,wood wool production,SSP2-RCP26_2080,0.0,0.0
+2080,wood wool production,SSP2-RCP26_2080,0.0,0.0
+2080,wood wool production,SSP2-RCP26_2080,0.0,0.0
+2058,glass wool mat production,SSP2-Base_2080,0.0,0.0
+2058,glass wool mat production,SSP2-RCP26_2080,0.0,0.0
+2046,heat pump production,SSP2-Base_2080,1545.06025243972,13.228401666347981
+2072,heat pump production,SSP2-Base_2080,-0.05756181366959139,-0.0005552642591128648
+2080,heat pump production,SSP2-Base_2080,-0.05756181366959139,-0.0005552642591128648
+2046,heat pump production,SSP2-RCP26_2080,1357.5682088306073,12.988910734633501
+2072,heat pump production,SSP2-RCP26_2080,-0.04392958244400105,-0.0005523414556607763
+2080,heat pump production,SSP2-RCP26_2080,-0.04392958244400105,-0.0005523414556607763
+2020,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2021,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2022,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2023,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2024,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2025,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2026,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2027,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2028,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2029,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2030,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2031,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2032,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2033,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2034,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2035,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2036,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2037,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2038,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2039,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2040,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2041,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2042,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2043,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2044,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2045,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2046,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-Base_2040,90037.31062316947,149.86711239207372
+2020,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2021,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2022,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2023,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2024,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2025,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2026,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2027,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2028,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2029,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2030,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2031,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2032,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2033,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2034,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2035,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2036,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2037,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2038,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2039,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2040,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2041,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2042,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2043,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2044,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2045,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2046,"'market for natural gas, high pressure' (cubic meter, CH, None)",SSP2-RCP26_2040,87484.59053746943,140.77283918024384
+2020,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2021,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2022,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2023,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2024,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2025,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2026,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2027,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2028,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2029,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2030,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2031,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2032,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2033,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2034,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2035,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2036,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2037,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2038,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2039,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2040,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2041,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2042,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2043,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2044,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2045,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2046,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2047,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2048,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2049,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2050,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2020,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2021,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2022,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2023,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2024,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2025,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2026,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2027,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2028,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2029,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2030,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2031,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2032,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2033,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2034,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2035,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2036,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2037,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2038,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2039,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2040,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2041,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2042,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2043,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2044,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2045,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2046,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2047,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2048,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2049,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2050,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2051,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2052,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2053,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2054,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2055,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2051,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2052,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2053,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2054,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2055,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2056,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2057,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2058,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2050,25.0340940513759,0.3182308249370768
+2056,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2057,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2058,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2050,18.986841309853702,0.3039669409124973
+2020,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2021,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2022,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2023,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2024,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2025,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2026,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2027,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2028,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2029,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2030,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2031,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2032,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2033,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2034,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2035,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2036,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2037,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2038,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2039,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2040,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2041,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2042,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2043,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2044,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2045,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2046,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2047,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2048,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2049,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2050,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2051,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2052,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2053,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2054,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2055,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2056,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2057,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2058,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2059,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2060,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2061,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2062,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2063,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2064,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2065,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2066,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2067,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2068,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2069,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2070,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2071,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2072,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2073,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2074,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2075,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2076,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2077,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2078,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2079,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2080,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-Base_2080,103.73308940168401,1.4364668269619323
+2020,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2021,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2022,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2023,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2024,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2025,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2026,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2027,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2028,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2029,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2030,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2031,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2032,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2033,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2034,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2035,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2036,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2037,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2038,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2039,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2040,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2041,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2042,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2043,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2044,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2045,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2046,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2047,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2048,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2049,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2050,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2051,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2052,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2053,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2054,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2055,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2056,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2057,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2058,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2059,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2060,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2061,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2062,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2063,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2064,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2065,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2066,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2067,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2068,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2069,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2070,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2071,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2072,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2073,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2074,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2075,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2076,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2077,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2078,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2079,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
+2080,"'market for electricity, low voltage, renewable energy products' (kilowatt hour, CH, None)",SSP2-RCP26_2080,73.82610034560942,1.4109133126749656
