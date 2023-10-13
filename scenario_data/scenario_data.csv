@@ -1,0 +1,11 @@
+﻿model,pathway,scenario,region,variables,unit,2020,2025,2030,2035,2040,2045,2050
+image,SSP2-Base,Business As Usual,CH,Share|gas,share,0.8,0.8,0.7,0.7,0.6,0.6,0.5
+image,SSP2-Base,Business As Usual,CH,Share|biogas,share,0.2,0.2,0.3,0.3,0.4,0.4,0.5
+image,SSP2-Base,Business As Usual,CH,Efficiency|gas,percentage,1,1,1.1,1.1,1.2,1.2,1.3
+image,SSP2-Base,Business As Usual,CH,Share|gas residential,share,0.8,0.8,0.7,0.7,0.6,0.6,0.5
+image,SSP2-Base,Business As Usual,CH,Share|heat pump,share,0.2,0.2,0.3,0.3,0.4,0.4,0.5
+image,SSP2-RCP26,Climate ambitious,CH,Share|gas,share,0.8,0.7,0.6,0.5,0.4,0.3,0.2
+image,SSP2-RCP26,Climate ambitious,CH,Share|biogas,share,0.2,0.3,0.4,0.5,0.6,0.7,0.8
+image,SSP2-RCP26,Climate ambitious,CH,Efficiency|gas,percentage,1,1,1.2,1.2,1.4,1.4,1.6
+image,SSP2-RCP26,Climate ambitious,CH,Share|gas residential,share,0.8,0.6,0.4,0.2,0,0,0
+image,SSP2-RCP26,Climate ambitious,CH,Share|heat pump,share,0.2,0.4,0.6,0.8,1,1,1
