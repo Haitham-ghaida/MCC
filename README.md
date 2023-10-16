@@ -8,7 +8,7 @@
 # Group members: Haitham Ghaida, Marin Pellan, Martin Rit, Miguel Louis, Moni Aridi, Thibault Goessel, Dalia Abdelfattah
 
 # Description:
-This Project was part of the Autumn School for Open Approaches to Time in LCA offered by (Départ de Sentier, AKA DdS)[https://www.d-d-s.ch/].
+This Project was part of the Autumn School for Open Approaches to Time in LCA offered by [Départ de Sentier, AKA DdS][https://www.d-d-s.ch/].
 
 ## Idea:
 Run building LCA in combination with a building energy simulation with multiple renovation scenarios for a building case study.
